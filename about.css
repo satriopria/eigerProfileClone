@@ -1,0 +1,45 @@
+body{
+    font-family: 'Inter';
+}
+
+.quote {
+    font-family: 'oswald';
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.subtitle {
+    transition-duration: 1s;
+}
+
+.subtitle:hover {
+    letter-spacing: 2px;
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+
+.companyPic img:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+    .companyPic .row .col {
+        flex: 50%;
+    }
+
+    .visimisi .h6 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logoBottom {
+        width: 25% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .visimisi .row .col{
+        flex: 100%;
+    }
+}

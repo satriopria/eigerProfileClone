@@ -1,0 +1,82 @@
+body{
+    font-family: 'Inter';
+}
+
+#carouselExampleIndicators {
+    margin-top: 50px;
+}
+
+.carousel-indicators button {
+    background-color: black !important;
+}
+
+.btn:hover {
+    background-color: goldenrod;
+}
+
+.cornerRoundedPic img {
+    filter: blur(1px);
+}
+
+.cornerRoundedPic>div {
+    top: 10% !important;
+}
+
+.cornerRoundedPic .h5 {
+    -webkit-text-stroke: .5px black;
+    text-shadow: .5px .5px 0 #000, -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
+}
+
+.cornerRoundedPic .h6 {
+    color: honeydew;
+    font-size: 14px;
+    text-shadow: .5px .5px black;
+}
+
+@media screen and (max-width: 1000px) {
+    .cornerRoundedPic .h6 {
+        font-size: 10px;
+    }
+    .cornerRoundedPic .h5 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .roundedPic div a {
+        font-size: 10px;
+    }
+    .cornerRoundedPic {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .cornerRoundedPic .h6 {
+        font-size: 12px;
+    }
+    .cornerRoundedPic .h5 {
+        font-size: 30px;
+    }
+
+    .copyright{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .roundedPic {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .roundedPic div button {
+        font-size: 1rem;
+    }
+    .logoBottom {
+        width: 25% !important;
+    }
+
+    .copyright{
+        font-size: 14px;
+    }
+}
